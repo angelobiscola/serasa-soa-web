@@ -1,6 +1,6 @@
 # Serasa
 
- Exemplo de Consulta de PEFIN-Pendências Financeiras na SERASA via SOAWebServices.
+ Exemplo de Consulta de Pendências Financeiras na SERASA via SOAWebServices.
 
 Instalção
 
