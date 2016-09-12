@@ -5,10 +5,12 @@ class Pesquisa
 {
     public $Documento;
     public $Credenciais;
+    public $active;
 
-    public function __construct($email,$senha)
+    public function __construct($email,$senha,$active = false)
     {
         $this->Credenciais   = new Credenciais($email,$senha);
+        $this->active        = $active;
     }
 
     public function setDocumento($documento)
@@ -19,7 +21,7 @@ class Pesquisa
 
     public function consultar()
     {
-        $serasa = new Serasa();
+        $serasa = new Serasa($this->active);
         return $serasa->getSerasaPefin($this)->PefinResult;
     }
 }
