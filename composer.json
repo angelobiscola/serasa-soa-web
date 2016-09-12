@@ -6,12 +6,6 @@
   "require": {
     "php": ">=5.3"
   },
-<<<<<<< HEAD:composer.json
-  "require-dev": {
-
-  },
-=======
->>>>>>> ccabc979b862d631ab5d66040da0f7971e9459d3:composer.json
   "authors": [
     {
       "name": "Angelo Biscola",
