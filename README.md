@@ -8,11 +8,11 @@ Instalção
 
 Teste
 
-    $pesquisa = new \SerasaSOAWeb\Pesquisa('email.cadastro.soawebservices@email.com','passaword.soawebservices');
+    $pesquisa = new \SerasaSOAWeb\Pesquisa('cadastro.soawebservices@email.com','passaword.soawebservices');
  
 Produção
 
-     $pesquisa = new \SerasaSOAWeb\Pesquisa('email.cadastro.soawebservices@email.com','passaword.soawebservices',true);
+     $pesquisa = new \SerasaSOAWeb\Pesquisa('cadastro.soawebservices@email.com','passaword.soawebservices',true);
  
 Consulta
  
