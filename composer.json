@@ -6,13 +6,15 @@
   "require": {
     "php": ">=5.3"
   },
-  "psr-4": {
-      "SerasaSOAWeb\\": "src/"
-   },
   "authors": [
     {
       "name": "Angelo Biscola",
       "email": "angelo.biscola@gmail.com"
+    },
+  ],
+   "autoload": {
+    "psr-4": {
+      "SerasaSOAWeb\\": "src/"
     }
-  ]
+  },
 }
