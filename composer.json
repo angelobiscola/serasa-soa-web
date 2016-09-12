@@ -10,11 +10,11 @@
     {
       "name": "Angelo Biscola",
       "email": "angelo.biscola@gmail.com"
-    },
+    }
   ],
-   "autoload": {
+  "autoload": {
     "psr-4": {
       "SerasaSOAWeb\\": "src/"
     }
-  },
+  }
 }
